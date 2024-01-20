@@ -4,11 +4,11 @@ public class Customer {
 
   private int id;
   private String name;
-  private string username;
-  private string password;
-  private string accountId;
+  private String username;
+  private String password;
+  private String accountId;
 
-  public Customer(int id, String name, String useername, String password, int accountId) {
+  public Customer(int id, String name, String username, String password, int accountId) {
     setId(id);
     setName(name);
     setUsername(username);
@@ -32,27 +32,27 @@ public class Customer {
     this.name = name;
   }
 
-  public string getUsername() {
+  public String getUsername() {
     return this.username;
   }
 
-  public void setUsername(string username) {
+  public void setUsername(String username) {
     this.username = username;
   }
 
-  public string getPassword() {
+  public String getPassword() {
     return this.password;
   }
 
-  public void setPassword(string password) {
+  public void setPassword(String password) {
     this.password = password;
   }
 
-  public string getAccountId() {
+  public String getAccountId() {
     return this.accountId;
   }
 
-  public void setAccountId(string accountId) {
+  public void setAccountId(String accountId) {
     this.accountId = accountId;
   }
 
